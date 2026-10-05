@@ -1,0 +1,139 @@
+/* NORMALIZE: */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+
+/* GLOBAL CUSTON STYLES */ 
+
+body {
+    background-color: #1c1c25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+   
+    color: white;
+    font-family: "Baloo 2";
+    font-weight: 100;
+    
+}
+
+.website-name {
+
+    font-size: 1.5rem;
+    color: rgb(127, 190, 227);    
+    font-weight: 500;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+.go-vegan {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.294);
+}
+
+.page-options {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-bottom: 14px;
+   
+   
+}
+
+.page-options > button {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    color: rgb(161, 161, 161);
+    font-size: 1.1rem;
+}
+
+.page-options > a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-size: 1.1rem;
+}
+
+.page-options > button:hover, .page-options > a:hover {
+    text-decoration: underline;
+}
